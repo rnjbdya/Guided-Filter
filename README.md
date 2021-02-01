@@ -1,5 +1,6 @@
 # Guided-Filter
-Implementation of Guided Filter- based on the paper by He et al. <br />
+Implementation of Guided Filter- based on the paper by He et al.
+<br />
 Guided filters are edge preserving-smoothing filters, which use an additional image called guide image which helps in filtering. 
 
 If we have a guidance image 'I' and an input image 'p', we assume that the output image of the filter will be 'q'.  According to the paper ‘Guided Image Filtering’[He et. al], the filtering output 'I' at any pixel can be expressed as a weighted average:<br />
@@ -15,16 +16,19 @@ Here, a<sub>k</sub> and b<sub>k</sub> are some linear coefficients which are ass
 A square window of radius ‘r’ has been used and the model ensures that the output q has an edge only when the guide image I has an edge as ∇ q = a ∇ I.
 
 Since the motivation here is to minimize the difference between q and p, the cost function shall be given as:
+<br />
 ![Equation-3](https://github.com/rnjbdya/Guided-Filter/blob/main/eqns_from_paper/eqn-3.png)
-
+<br />
 The ε is the regularization parameter, which helps to make sure that 'a' doesn’t have more significance that needed.
 
 Using linear regression the values of ak and bk can be found as:
+<br />
 ![Equation-4](https://github.com/rnjbdya/Guided-Filter/blob/main/eqns_from_paper/eqn-4.png) \
-
+<br />
 Applying the window to all of the pixels we can get the output q. Since a pixel maybe involved in multiple windows, we simply average out all the possible q values. The filter output is then given by:
+<br />
 ![Equation-5](https://github.com/rnjbdya/Guided-Filter/blob/main/eqns_from_paper/eqn-5.png) \
-
+<br />
 Algorithm:
     1. Find the mean values of I and p using the window with radius r.
     2. Find the correlation of I with itself and again between I and p using the same window of radius r.
