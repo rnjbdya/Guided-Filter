@@ -42,13 +42,11 @@ Applying the window to all of the pixels we can get the output q. Since a pixel 
 
 Initially image smoothening was performed. Here we experimented values of r in the range, ‘2, 4, 8’
 and  ε in the range ‘0.1<sup>2</sup>, 0.2<sup>2</sup>, 0.4<sup>2</sup>’. For smoothing purpose both the image I and p were taken as same image. As we can see from the results obtained(shown below), we can obtain a varying degree of blurring by varying the values of r and  ε. The image is more blurred when the value of r is greater.
-<br />
+
 ### Input:
-<br />
 ![Input for Image Smoothening](https://github.com/rnjbdya/Guided-Filter/blob/main/input_images/cat.bmp) \
-<br />
+
 ### Output:
-<br />
 ![Smoothening-1](https://github.com/rnjbdya/Guided-Filter/blob/main/output/cat_smoothed1.png)
 ![Smoothening-2](https://github.com/rnjbdya/Guided-Filter/blob/main/output/cat_smoothed2.png)
 ![Smoothening-3](https://github.com/rnjbdya/Guided-Filter/blob/main/output/cat_smoothed3.png)  \
@@ -64,38 +62,30 @@ and  ε in the range ‘0.1<sup>2</sup>, 0.2<sup>2</sup>, 0.4<sup>2</sup>’. Fo
 
 Feathering was then performed on the values of r in the range ‘10, 60, 70’ and  ε in the range ‘3,6,9’. The image I From the obtained results, we can conclude as in the original paper of guided filter, the best result can be obtained using r = 60 and  ε = 6. Varying the values of r and  ε doesn’t seem to give us good results.
 
-<br />
 ### Input:
-<br />
 ![Input image for Feathering](https://github.com/rnjbdya/Guided-Filter/blob/main/input_images/toy.bmp)
 ![Mask for Feathering](https://github.com/rnjbdya/Guided-Filter/blob/main/input_images/toy-mask.bmp)
 <br />
 ### Output:
-<br />
 ![Feathering-1](https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering1.png)
 ![Feathering-2](https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering2.png)
-![Feathering-3](https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering3.png)
+![Feathering-3](https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering3.png)  \
 <br />
 ![Feathering-4](https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering4.png)
 ![Feathering-5](https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering5.png)
-![Feathering-6](https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering6.png)
+![Feathering-6](https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering6.png)  \
 <br />
 ![Feathering-7](https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering7.png)
 ![Feathering-8](https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering8.png)
-![Feathering-9](https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering9.png)
+![Feathering-9](https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering9.png)  \
 <br />
 
 We also performed flash denoising, while experimenting with the values of r and  ε didnt give us much varying result.  Here we have separately passed the pixel values of the three channels of both the guide image and the input image to the filer function.The best values of r and  ε as suggested by the original paper was r = 8 and  ε = 0.02^2.
 
-
-<br />
 ### Input:
-<br />
 ![Input image for Flash-Denoising](https://github.com/rnjbdya/Guided-Filter/blob/main/input_images/toy.bmp)
 ![Mask for Flash-Denoising](https://github.com/rnjbdya/Guided-Filter/blob/main/input_images/toy-mask.bmp)
-<br />
 ### Output:
-<br />
 ![Flash-Denoising-1](https://github.com/rnjbdya/Guided-Filter/blob/main/output/cave1.png)
 ![Flash-Denoising-2](https://github.com/rnjbdya/Guided-Filter/blob/main/output/cave2.png)
 ![Flash-Denoising-3](https://github.com/rnjbdya/Guided-Filter/blob/main/output/cave3.png)
