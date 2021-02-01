@@ -38,3 +38,7 @@ Algorithm:
     6. Calculate q.
     
  Results:
+ Here I have implemented the guided filter in multiple scenarios as suggested in the original paper and while doing so, I have experimented with multiple values of ‘r’ and ‘ ε’.
+
+Initially image smoothing was performed. Here we experimented values of r in the range, ‘2, 4, 8’
+and  ε in the range ‘0.1<sub>2</sub>, 0.2<sub>2</sub>, 0.4<sub>2</sub>’. For smoothing purpose both the image I and p were taken as same image. As we can see from the results obtained(shown below), we can obtain a varying degree of blurring by varying the values of r and  ε. The image is more blurred when the value of r is greater.
