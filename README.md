@@ -43,7 +43,11 @@ Applying the window to all of the pixels we can get the output q. Since a pixel 
 Initially image smoothening was performed. Here we experimented values of r in the range, ‘2, 4, 8’
 and  ε in the range ‘0.1<sup>2</sup>, 0.2<sup>2</sup>, 0.4<sup>2</sup>’. For smoothing purpose both the image I and p were taken as same image. As we can see from the results obtained(shown below), we can obtain a varying degree of blurring by varying the values of r and  ε. The image is more blurred when the value of r is greater.
 <br />
+### Input:
+<br />
 ![Input for Image Smoothening](https://github.com/rnjbdya/Guided-Filter/blob/main/input_images/cat.bmp)
+<br />
+### Output:
 <br />
 ![Smoothening-1](https://github.com/rnjbdya/Guided-Filter/blob/main/output/cat_smoothed1.png)
 ![Smoothening-2](https://github.com/rnjbdya/Guided-Filter/blob/main/output/cat_smoothed2.png)
