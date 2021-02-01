@@ -1,0 +1,4 @@
+cat.bmp - used for images smooothening, both input image and guide image are the same
+toy.bmp and toy-mask.bmp -- used for feathering
+cave-flash.bmp and cavenoflash.bmp for flash noise reduction
+tulips.bmp for image enhancement, both input image and guide image are the same
