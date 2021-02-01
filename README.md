@@ -29,7 +29,7 @@ Applying the window to all of the pixels we can get the output q. Since a pixel 
 <br />
 ![Equation-5](https://github.com/rnjbdya/Guided-Filter/blob/main/eqns_from_paper/eqn-5.png) \
 <br />
-##Algorithm:
+## Algorithm:
     1. Find the mean values of I and p using the window with radius r.
     2. Find the correlation of I with itself and again between I and p using the same window of radius r.
     3. Find the variance of I and the co-variance between I and p.
@@ -37,8 +37,23 @@ Applying the window to all of the pixels we can get the output q. Since a pixel 
     5. Find the mean value of a and b.
     6. Calculate q.
     
- ##Results:
+## Results:
  Here I have implemented the guided filter in multiple scenarios as suggested in the original paper and while doing so, I have experimented with multiple values of ‘r’ and ‘ ε’.
 
-Initially image smoothing was performed. Here we experimented values of r in the range, ‘2, 4, 8’
+Initially image smoothening was performed. Here we experimented values of r in the range, ‘2, 4, 8’
 and  ε in the range ‘0.1<sup>2</sup>, 0.2<sup>2</sup>, 0.4<sup>2</sup>’. For smoothing purpose both the image I and p were taken as same image. As we can see from the results obtained(shown below), we can obtain a varying degree of blurring by varying the values of r and  ε. The image is more blurred when the value of r is greater.
+<br />
+![Input for Image Smoothening](https://github.com/rnjbdya/Guided-Filter/blob/main/input_images/cat.bmp)
+<br />
+![Smoothening-1](https://github.com/rnjbdya/Guided-Filter/blob/main/output/cat_smoothed1.png)
+![Smoothening-2](https://github.com/rnjbdya/Guided-Filter/blob/main/output/cat_smoothed2.png)
+![Smoothening-3](https://github.com/rnjbdya/Guided-Filter/blob/main/output/cat_smoothed3.png)
+<br />
+![Smoothening-4](https://github.com/rnjbdya/Guided-Filter/blob/main/output/cat_smoothed4.png)
+![Smoothening-5](https://github.com/rnjbdya/Guided-Filter/blob/main/output/cat_smoothed5.png)
+![Smoothening-6](https://github.com/rnjbdya/Guided-Filter/blob/main/output/cat_smoothed6.png)
+<br />
+![Smoothening-7](https://github.com/rnjbdya/Guided-Filter/blob/main/output/cat_smoothed7.png)
+![Smoothening-8](https://github.com/rnjbdya/Guided-Filter/blob/main/output/cat_smoothed8.png)
+![Smoothening-9](https://github.com/rnjbdya/Guided-Filter/blob/main/output/cat_smoothed9.png)
+<br />
