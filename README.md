@@ -17,7 +17,7 @@ A square window of radius ‘r’ has been used and the model ensures that the o
 
 Since the motivation here is to minimize the difference between q and p, the cost function shall be given as:
 <br />
-![Equation-3](https://github.com/rnjbdya/Guided-Filter/blob/main/eqns_from_paper/eqn-3.png)
+![Equation-3](https://github.com/rnjbdya/Guided-Filter/blob/main/eqns_from_paper/eqn-3.png) \
 <br />
 The ε is the regularization parameter, which helps to make sure that 'a' doesn’t have more significance that needed.
 
@@ -51,15 +51,15 @@ and  ε in the range ‘0.1<sup>2</sup>, 0.2<sup>2</sup>, 0.4<sup>2</sup>’. Fo
 <br />
 ![Smoothening-1](https://github.com/rnjbdya/Guided-Filter/blob/main/output/cat_smoothed1.png)
 ![Smoothening-2](https://github.com/rnjbdya/Guided-Filter/blob/main/output/cat_smoothed2.png)
-![Smoothening-3](https://github.com/rnjbdya/Guided-Filter/blob/main/output/cat_smoothed3.png)
+![Smoothening-3](https://github.com/rnjbdya/Guided-Filter/blob/main/output/cat_smoothed3.png)  \
 <br />
 ![Smoothening-4](https://github.com/rnjbdya/Guided-Filter/blob/main/output/cat_smoothed4.png)
 ![Smoothening-5](https://github.com/rnjbdya/Guided-Filter/blob/main/output/cat_smoothed5.png)
-![Smoothening-6](https://github.com/rnjbdya/Guided-Filter/blob/main/output/cat_smoothed6.png)
+![Smoothening-6](https://github.com/rnjbdya/Guided-Filter/blob/main/output/cat_smoothed6.png)  \
 <br />
 ![Smoothening-7](https://github.com/rnjbdya/Guided-Filter/blob/main/output/cat_smoothed7.png)
 ![Smoothening-8](https://github.com/rnjbdya/Guided-Filter/blob/main/output/cat_smoothed8.png)
-![Smoothening-9](https://github.com/rnjbdya/Guided-Filter/blob/main/output/cat_smoothed9.png)
+![Smoothening-9](https://github.com/rnjbdya/Guided-Filter/blob/main/output/cat_smoothed9.png)  \
 <br />
 
 Feathering was then performed on the values of r in the range ‘10, 60, 70’ and  ε in the range ‘3,6,9’. The image I From the obtained results, we can conclude as in the original paper of guided filter, the best result can be obtained using r = 60 and  ε = 6. Varying the values of r and  ε doesn’t seem to give us good results.
