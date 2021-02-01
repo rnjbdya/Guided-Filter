@@ -85,3 +85,49 @@ Feathering was then performed on the values of r in the range ‘10, 60, 70’ a
 ![Feathering-9](https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering9.png)
 <br />
 
+We also performed flash denoising, while experimenting with the values of r and  ε didnt give us much varying result.  Here we have separately passed the pixel values of the three channels of both the guide image and the input image to the filer function.The best values of r and  ε as suggested by the original paper was r = 8 and  ε = 0.02^2.
+
+
+<br />
+### Input:
+<br />
+![Input image for Flash-Denoising](https://github.com/rnjbdya/Guided-Filter/blob/main/input_images/toy.bmp)
+![Mask for Flash-Denoising](https://github.com/rnjbdya/Guided-Filter/blob/main/input_images/toy-mask.bmp)
+<br />
+### Output:
+<br />
+![Flash-Denoising-1](https://github.com/rnjbdya/Guided-Filter/blob/main/output/cave1.png)
+![Flash-Denoising-2](https://github.com/rnjbdya/Guided-Filter/blob/main/output/cave2.png)
+![Flash-Denoising-3](https://github.com/rnjbdya/Guided-Filter/blob/main/output/cave3.png)
+<br />
+![Flash-Denoising-4](https://github.com/rnjbdya/Guided-Filter/blob/main/output/cave4.png)
+![Flash-Denoising-5](https://github.com/rnjbdya/Guided-Filter/blob/main/output/cave5.png)
+![Flash-Denoising-6](https://github.com/rnjbdya/Guided-Filter/blob/main/output/cave6.png)
+<br />
+![Flash-Denoising-7](https://github.com/rnjbdya/Guided-Filter/blob/main/output/cave7.png)
+![Flash-Denoising-8](https://github.com/rnjbdya/Guided-Filter/blob/main/output/cave8.png)
+![Flash-Denoising-9](https://github.com/rnjbdya/Guided-Filter/blob/main/output/cave9.png)
+<br />
+
+Finally we also performed image enhancement of tulip image. While both the guide image and the input image both were same here, in this case as well we have separately passed the pixel values of the three channels of both the guide image and the input image to the filer function. But we couldn’t get much difference while varying the values of r and  ε.
+
+
+<br />
+### Input:
+<br />
+![Input image for Enhancement](https://github.com/rnjbdya/Guided-Filter/blob/main/input_images/toy.bmp)
+<br />
+### Output:
+<br />
+![Enhancement-1](https://github.com/rnjbdya/Guided-Filter/blob/main/output/tulip1.png)
+![Enhancement-2](https://github.com/rnjbdya/Guided-Filter/blob/main/output/tulip2.png)
+![Enhancement-3](https://github.com/rnjbdya/Guided-Filter/blob/main/output/tulip3.png)
+<br />
+![Enhancement-4](https://github.com/rnjbdya/Guided-Filter/blob/main/output/tulip4.png)
+![Enhancement-5](https://github.com/rnjbdya/Guided-Filter/blob/main/output/tulip5.png)
+![Enhancement-6](https://github.com/rnjbdya/Guided-Filter/blob/main/output/tulip6.png)
+<br />
+![Enhancement-7](https://github.com/rnjbdya/Guided-Filter/blob/main/output/tulip7.png)
+![Enhancement-8](https://github.com/rnjbdya/Guided-Filter/blob/main/output/tulip8.png)
+![Enhancement-9](https://github.com/rnjbdya/Guided-Filter/blob/main/output/tulip9.png)
+<br />
