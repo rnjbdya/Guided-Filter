@@ -45,7 +45,7 @@ and  ε in the range ‘0.1<sup>2</sup>, 0.2<sup>2</sup>, 0.4<sup>2</sup>’. Fo
 <br />
 ### Input:
 <br />
-![Input for Image Smoothening](https://github.com/rnjbdya/Guided-Filter/blob/main/input_images/cat.bmp)
+![Input for Image Smoothening](https://github.com/rnjbdya/Guided-Filter/blob/main/input_images/cat.bmp) \
 <br />
 ### Output:
 <br />
