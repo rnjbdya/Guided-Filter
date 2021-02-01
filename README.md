@@ -2,12 +2,14 @@
 Implementation of Guided Filter- based on the paper by He et al. <br />
 Guided filters are edge preserving-smoothing filters, which use an additional image called guide image which helps in filtering. 
 
-If we have a guidance image 'I' and an input image 'p', we assume that the output image of the filter will be 'q'.  According to the paper ‘Guided Image Filtering’[He et. al], the filtering output 'I' at any pixel can be expressed as a weighted average:
+If we have a guidance image 'I' and an input image 'p', we assume that the output image of the filter will be 'q'.  According to the paper ‘Guided Image Filtering’[He et. al], the filtering output 'I' at any pixel can be expressed as a weighted average:<br />
+<br />
 ![Equation-1](https://github.com/rnjbdya/Guided-Filter/blob/main/eqns_from_paper/eqn-1.png) \
-
+<br />
 The paper assumes that the guided filter is a local linear model between the images 'I' and 'q', where q is taken as a linear transform of I in window w<sub>k</sub>  centered at the pixel K:
+<br />
 ![Equation-2](https://github.com/rnjbdya/Guided-Filter/blob/main/eqns_from_paper/eqn-2.png) \
-
+<br />
 Here, a<sub>k</sub> and b<sub>k</sub> are some linear coefficients which are assumed to be constant in w<sub>k</sub>
 
 A square window of radius ‘r’ has been used and the model ensures that the output q has an edge only when the guide image I has an edge as ∇ q = a ∇ I.
