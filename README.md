@@ -68,18 +68,11 @@ Input image for Feathering           |  Mask for Feathering
 !<img src="https://github.com/rnjbdya/Guided-Filter/blob/main/input_images/toy.bmp" alt = "Input image for Feathering" width="300" height="300">  |  !<img src="https://github.com/rnjbdya/Guided-Filter/blob/main/input_images/toy-mask.bmp" alt = "Mask for Feathering" width="300" height="300">
 <br />
 ### Output:
-![Feathering-1](https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering1.png)
-![Feathering-2](https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering2.png)
-![Feathering-3](https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering3.png)  \
-<br />
-![Feathering-4](https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering4.png)
-![Feathering-5](https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering5.png)
-![Feathering-6](https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering6.png)  \
-<br />
-![Feathering-7](https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering7.png)
-![Feathering-8](https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering8.png)
-![Feathering-9](https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering9.png)  \
-<br />
+!<img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering1.png" alt = "Feathering-1" width="300" height="300">  |!<img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering2.png" alt = "Feathering-2" width="300" height="300"> | !<img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering3.png" alt = "Feathering-3" width="300" height="300">  \
+:-------------------------:|:-------------------------:
+!<img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering4.png" alt = "Feathering-4" width="300" height="300">  |!<img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering5.png" alt = "Feathering-5" width="300" height="300"> | !<img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering6.png" alt = "Feathering-6" width="300" height="300">  \
+:-------------------------:|:-------------------------:
+!<img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering7.png" alt = "Feathering-7" width="300" height="300">  |!<img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering8.png" alt = "Feathering-8" width="300" height="300"> | !<img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering9.png" alt = "Feathering-9" width="300" height="300">  \
 
 We also performed flash denoising, while experimenting with the values of r and  ε didnt give us much varying result.  Here we have separately passed the pixel values of the three channels of both the guide image and the input image to the filer function.The best values of r and  ε as suggested by the original paper was r = 8 and  ε = 0.02^2.
 
