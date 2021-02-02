@@ -43,10 +43,10 @@ Applying the window to all of the pixels we can get the output q. Since a pixel 
 Initially image smoothening was performed. Here we experimented values of r in the range, ‘2, 4, 8’
 and  ε in the range ‘0.1<sup>2</sup>, 0.2<sup>2</sup>, 0.4<sup>2</sup>’. For smoothing purpose both the image I and p were taken as same image. As we can see from the results obtained(shown below), we can obtain a varying degree of blurring by varying the values of r and  ε. The image is more blurred when the value of r is greater.
 
-### Input:
+###  Input:
 ![Input for Image Smoothening](https://github.com/rnjbdya/Guided-Filter/blob/main/input_images/cat.bmp) \
 
-### Output:
+###  Output:
 ![Smoothening-1](https://github.com/rnjbdya/Guided-Filter/blob/main/output/cat_smoothed1.png)
 ![Smoothening-2](https://github.com/rnjbdya/Guided-Filter/blob/main/output/cat_smoothed2.png)
 ![Smoothening-3](https://github.com/rnjbdya/Guided-Filter/blob/main/output/cat_smoothed3.png)  \
@@ -62,12 +62,12 @@ and  ε in the range ‘0.1<sup>2</sup>, 0.2<sup>2</sup>, 0.4<sup>2</sup>’. Fo
 
 Feathering was then performed on the values of r in the range ‘10, 60, 70’ and  ε in the range ‘3,6,9’. The image I From the obtained results, we can conclude as in the original paper of guided filter, the best result can be obtained using r = 60 and  ε = 6. Varying the values of r and  ε doesn’t seem to give us good results.
 
-### Input:
+###  Input:
 Input image for Feathering           |  Mask for Feathering
 :-------------------------:|:-------------------------:
 !<img src="https://github.com/rnjbdya/Guided-Filter/blob/main/input_images/toy.bmp" alt = "Input image for Feathering" width="300" height="300">  |  !<img src="https://github.com/rnjbdya/Guided-Filter/blob/main/input_images/toy-mask.bmp" alt = "Mask for Feathering" width="300" height="300">
 <br />
-### Output:
+###  Output:
 !<img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering1.png" alt = "Feathering-1" width="300" height="300">  |  !<img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering2.png" alt = "Feathering-2" width="300" height="300"> |  !<img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering3.png" alt = "Feathering-3" width="300" height="300">  \
 :-------------------------:|:-------------------------:
 !<img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering4.png" alt = "Feathering-4" width="300" height="300">  |!<img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering5.png" alt = "Feathering-5" width="300" height="300">  |  !<img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering6.png" alt = "Feathering-6" width="300" height="300">  \
@@ -76,10 +76,10 @@ Input image for Feathering           |  Mask for Feathering
 
 We also performed flash denoising, while experimenting with the values of r and  ε didnt give us much varying result.  Here we have separately passed the pixel values of the three channels of both the guide image and the input image to the filer function.The best values of r and  ε as suggested by the original paper was r = 8 and  ε = 0.02^2.
 
-### Input:
+###  Input:
 ![Input image for Flash-Denoising](https://github.com/rnjbdya/Guided-Filter/blob/main/input_images/cave-flash.bmp)
 ![Mask for Flash-Denoising](https://github.com/rnjbdya/Guided-Filter/blob/main/input_images/cavenoflash.bmp)
-### Output:
+###  Output:
 ![Flash-Denoising-1](https://github.com/rnjbdya/Guided-Filter/blob/main/output/cave1.png)
 ![Flash-Denoising-2](https://github.com/rnjbdya/Guided-Filter/blob/main/output/cave2.png)
 ![Flash-Denoising-3](https://github.com/rnjbdya/Guided-Filter/blob/main/output/cave3.png)
@@ -97,11 +97,11 @@ Finally we also performed image enhancement of tulip image. While both the guide
 
 
 <br />
-### Input:
+###  Input:
 <br />
 ![Input image for Enhancement](https://github.com/rnjbdya/Guided-Filter/blob/main/input_images/tulips.bmp)
 <br />
-### Output:
+###  Output:
 <br />
 ![Enhancement-1](https://github.com/rnjbdya/Guided-Filter/blob/main/output/tulip1.png)
 ![Enhancement-2](https://github.com/rnjbdya/Guided-Filter/blob/main/output/tulip2.png)
