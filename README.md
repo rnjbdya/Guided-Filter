@@ -29,7 +29,7 @@ Applying the window to all of the pixels we can get the output q. Since a pixel 
 <br />
 ![Equation-5](https://github.com/rnjbdya/Guided-Filter/blob/main/eqns_from_paper/eqn-5.png) \
 <br />
-## Algorithm:
+##  Algorithm:
     1. Find the mean values of I and p using the window with radius r.
     2. Find the correlation of I with itself and again between I and p using the same window of radius r.
     3. Find the variance of I and the co-variance between I and p.
@@ -37,7 +37,7 @@ Applying the window to all of the pixels we can get the output q. Since a pixel 
     5. Find the mean value of a and b.
     6. Calculate q.
     
-## Results:
+##  Results:
  Here I have implemented the guided filter in multiple scenarios as suggested in the original paper and while doing so, I have experimented with multiple values of ‘r’ and ‘ ε’.
 
 Initially image smoothening was performed. Here we experimented values of r in the range, ‘2, 4, 8’
