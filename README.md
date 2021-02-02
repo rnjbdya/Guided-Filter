@@ -63,8 +63,8 @@ and  ε in the range ‘0.1<sup>2</sup>, 0.2<sup>2</sup>, 0.4<sup>2</sup>’. Fo
 Feathering was then performed on the values of r in the range ‘10, 60, 70’ and  ε in the range ‘3,6,9’. The image I From the obtained results, we can conclude as in the original paper of guided filter, the best result can be obtained using r = 60 and  ε = 6. Varying the values of r and  ε doesn’t seem to give us good results.
 
 ### Input:
-<img src="https://github.com/rnjbdya/Guided-Filter/blob/main/input_images/toy.bmp" alt = "Input image for Feathering" width="10" height="10">
-<img src="https://github.com/rnjbdya/Guided-Filter/blob/main/input_images/toy-mask.bmp" alt = "Mask for Feathering" width="10" height="10">
+<img src="https://github.com/rnjbdya/Guided-Filter/blob/main/input_images/toy.bmp" alt = "Input image for Feathering" width="100" height="100">
+<img src="https://github.com/rnjbdya/Guided-Filter/blob/main/input_images/toy-mask.bmp" alt = "Mask for Feathering" width="100" height="100">
 <br />
 ### Output:
 ![Feathering-1](https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering1.png)
