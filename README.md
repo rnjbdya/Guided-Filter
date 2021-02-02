@@ -84,8 +84,8 @@ Input image for Feathering           |  Mask for Feathering
 We also performed flash denoising, while experimenting with the values of r and  ε didnt give us much varying result.  Here we have separately passed the pixel values of the three channels of both the guide image and the input image to the filer function.The best values of r and  ε as suggested by the original paper was r = 8 and  ε = 0.02^2.
 
 ### Input:
-![Input image for Flash-Denoising](https://github.com/rnjbdya/Guided-Filter/blob/main/input_images/toy.bmp)
-![Mask for Flash-Denoising](https://github.com/rnjbdya/Guided-Filter/blob/main/input_images/toy-mask.bmp)
+![Input image for Flash-Denoising](https://github.com/rnjbdya/Guided-Filter/blob/main/input_images/cave-flash.bmp)
+![Mask for Flash-Denoising](https://github.com/rnjbdya/Guided-Filter/blob/main/input_images/cavenoflash.bmp)
 ### Output:
 ![Flash-Denoising-1](https://github.com/rnjbdya/Guided-Filter/blob/main/output/cave1.png)
 ![Flash-Denoising-2](https://github.com/rnjbdya/Guided-Filter/blob/main/output/cave2.png)
@@ -106,7 +106,7 @@ Finally we also performed image enhancement of tulip image. While both the guide
 <br />
 ### Input:
 <br />
-![Input image for Enhancement](https://github.com/rnjbdya/Guided-Filter/blob/main/input_images/toy.bmp)
+![Input image for Enhancement](https://github.com/rnjbdya/Guided-Filter/blob/main/input_images/tulips.bmp)
 <br />
 ### Output:
 <br />
