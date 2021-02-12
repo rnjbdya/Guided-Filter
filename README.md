@@ -101,5 +101,5 @@ Finally we also performed image enhancement of tulip image. While both the guide
 The results here may not be perfect but one certainly play with the parameters and get better results.
 
 ###  Reference:
-@ARTICLE{6319316,  author={K. {He} and J. {Sun} and X. {Tang}},  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},   title={Guided Image Filtering},   year={2013},  volume={35},  number={6},  pages={1397-1409},  doi={10.1109/TPAMI.2012.213}}
+K. He, J. Sun and X. Tang, "Guided Image Filtering," in IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 35, no. 6, pp. 1397-1409, June 2013, doi: 10.1109/TPAMI.2012.213.
 
