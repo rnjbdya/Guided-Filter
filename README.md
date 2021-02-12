@@ -67,6 +67,21 @@ Input image for Feathering           |  Mask for Feathering
 :-------------------------:|:-------------------------:
 <img src="https://github.com/rnjbdya/Guided-Filter/blob/main/input_images/toy.bmp" alt = "Input image for Feathering" width="300" height="300">  |  <img src="https://github.com/rnjbdya/Guided-Filter/blob/main/input_images/toy-mask.bmp" alt = "Mask for Feathering" width="300" height="300">
 <br />
+
+###  Output:
+![Feathering-1](https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering1.png width= "300" height="300")
+![Feathering-2](https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering2.png width= "300" height="300")
+![Feathering-3](https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering3.png width= "300" height="300")  \
+<br />
+![Feathering-4](https://github.com/rnjbdya/Guided-Filter/blob/main/output/cat_smoothed4.png)
+![Feathering-5](https://github.com/rnjbdya/Guided-Filter/blob/main/output/cat_smoothed5.png)
+![Feathering-6](https://github.com/rnjbdya/Guided-Filter/blob/main/output/cat_smoothed6.png)  \
+<br />
+![Feathering-7](https://github.com/rnjbdya/Guided-Filter/blob/main/output/cat_smoothed7.png)
+![Feathering-8](https://github.com/rnjbdya/Guided-Filter/blob/main/output/cat_smoothed8.png)
+![Feathering-9](https://github.com/rnjbdya/Guided-Filter/blob/main/output/cat_smoothed9.png)  \
+<br />
+
 ###  Output:
 <img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering1.png" alt = "Feathering-1" width="300" height="300">  |  <img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering2.png" alt = "Feathering-2" width="300" height="300"> |  <img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering3.png" alt = "Feathering-3" width="300" height="300">  \
 :-------------------------:|:-------------------------:
