@@ -89,7 +89,6 @@ Input image for Flash-Denoising           |  Mask for Flash-Denoising
 Finally we also performed image enhancement of tulip image. While both the guide image and the input image both were same here, in this case as well we have separately passed the pixel values of the three channels of both the guide image and the input image to the filer function. But we couldn’t get much difference while varying the values of r and  ε.
 
 ###  Input:
-Input image for Enhancement:
 <img src="https://github.com/rnjbdya/Guided-Filter/blob/main/input_images/tulips.bmp" alt = "Input image for Enhancement" width="300" height="300"> 
 <br />
 
@@ -97,3 +96,10 @@ Input image for Enhancement:
 <img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/tulip1.png" alt = "Enhancement-1" width="250" height="250">    <img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/tulip2.png" alt = "Enhancement-2" width="250" height="250">   <img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/tulip3.png" alt = "Enhancement-3" width="250" height="250">  \
 <img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/tulip4.png" alt = "Enhancement-4" width="250" height="250">  <img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/tulip5.png" alt = "Enhancement-5" width="250" height="250">  <img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/tulip6.png" alt = "Enhancement-6" width="250" height="250">  \
 <img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/tulip7.png" alt = "Enhancement-7" width="250" height="250">  <img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/tulip8.png" alt = "Enhancement-8" width="250" height="250">  <img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/tulip9.png" alt = "Enhancement-9" width="250" height="250">
+<br />
+
+The results here may not be perfect but one certainly play with the parameters and get better results.
+
+###  Reference:
+@ARTICLE{6319316,  author={K. {He} and J. {Sun} and X. {Tang}},  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},   title={Guided Image Filtering},   year={2013},  volume={35},  number={6},  pages={1397-1409},  doi={10.1109/TPAMI.2012.213}}
+
