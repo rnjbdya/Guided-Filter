@@ -44,7 +44,7 @@ Initially image smoothening was performed. Here we experimented values of r in t
 and  ε in the range ‘0.1<sup>2</sup>, 0.2<sup>2</sup>, 0.4<sup>2</sup>’. For smoothing purpose both the image I and p were taken as same image. As we can see from the results obtained(shown below), we can obtain a varying degree of blurring by varying the values of r and  ε. The image is more blurred when the value of r is greater.
 
 ###  Input:
-![Input for Image Smoothening](https://github.com/rnjbdya/Guided-Filter/blob/main/input_images/cat.bmp) \
+![Input for Image Smoothening](https://github.com/rnjbdya/Guided-Filter/blob/main/input_images/cat.bmp)
 
 ###  Output:
 ![Smoothening-1](https://github.com/rnjbdya/Guided-Filter/blob/main/output/cat_smoothed1.png)
@@ -65,7 +65,7 @@ Feathering was then performed on the values of r in the range ‘10, 60, 70’ a
 ###  Input:
 Input image for Feathering           |  Mask for Feathering
 :-------------------------:|:-------------------------:
-!<img src="https://github.com/rnjbdya/Guided-Filter/blob/main/input_images/toy.bmp" alt = "Input image for Feathering" width="300" height="300">  |  !<img src="https://github.com/rnjbdya/Guided-Filter/blob/main/input_images/toy-mask.bmp" alt = "Mask for Feathering" width="300" height="300">
+<img src="https://github.com/rnjbdya/Guided-Filter/blob/main/input_images/toy.bmp" alt = "Input image for Feathering" width="300" height="300">  |  <img src="https://github.com/rnjbdya/Guided-Filter/blob/main/input_images/toy-mask.bmp" alt = "Mask for Feathering" width="300" height="300">
 <br />
 ###  Output:
 !<img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering1.png" alt = "Feathering-1" width="300" height="300">  |  !<img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering2.png" alt = "Feathering-2" width="300" height="300"> |  !<img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering3.png" alt = "Feathering-3" width="300" height="300">  \
