@@ -68,7 +68,7 @@ Input image for Feathering           |  Mask for Feathering
 <img src="https://github.com/rnjbdya/Guided-Filter/blob/main/input_images/toy.bmp" alt = "Input image for Feathering" width="300" height="300">  |  <img src="https://github.com/rnjbdya/Guided-Filter/blob/main/input_images/toy-mask.bmp" alt = "Mask for Feathering" width="300" height="300">
 <br />
 ###  Output:
-!<img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering1.png" alt = "Feathering-1" width="300" height="300">  |  !<img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering2.png" alt = "Feathering-2" width="300" height="300"> |  !<img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering3.png" alt = "Feathering-3" width="300" height="300">  \
+<img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering1.png" alt = "Feathering-1" width="300" height="300">  |  <img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering2.png" alt = "Feathering-2" width="300" height="300"> |  <img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering3.png" alt = "Feathering-3" width="300" height="300">  \
 :-------------------------:|:-------------------------:
 !<img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering4.png" alt = "Feathering-4" width="300" height="300">  |!<img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering5.png" alt = "Feathering-5" width="300" height="300">  |  !<img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering6.png" alt = "Feathering-6" width="300" height="300">  \
 :-------------------------:|:-------------------------:
