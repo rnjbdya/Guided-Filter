@@ -4,10 +4,6 @@ import scipy as sp
 import scipy.ndimage
 from skimage.color import rgb2gray
 import imageio
-import visvis as vv
-import PyQt5
-import os
-import glob
 
 def boxfilter(imSrc,r):
     # The function helps us find the mean of the images
