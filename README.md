@@ -71,26 +71,20 @@ Input image for Feathering           |  Mask for Feathering
 ###  Output:
 <img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering1.png" alt = "Feathering-1" width="250" height="250">    <img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering2.png" alt = "Feathering-2" width="250" height="250">   <img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering3.png" alt = "Feathering-3" width="250" height="250">  \
 <img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering4.png" alt = "Feathering-4" width="250" height="250">  <img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering5.png" alt = "Feathering-5" width="250" height="250">  <img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering6.png" alt = "Feathering-6" width="250" height="250">  \
-<img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering7.png" alt = "Feathering-7" width="250" height="250">  <img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering8.png" alt = "Feathering-8" width="250" height="250">  <img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering9.png" alt = "Feathering-9" width="250" height="250">  \
+<img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering7.png" alt = "Feathering-7" width="250" height="250">  <img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering8.png" alt = "Feathering-8" width="250" height="250">  <img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/feathering9.png" alt = "Feathering-9" width="250" height="250">
 
 We also performed flash denoising, while experimenting with the values of r and  ε didnt give us much varying result.  Here we have separately passed the pixel values of the three channels of both the guide image and the input image to the filer function.The best values of r and  ε as suggested by the original paper was r = 8 and  ε = 0.02^2.
 
 ###  Input:
-![Input image for Flash-Denoising](https://github.com/rnjbdya/Guided-Filter/blob/main/input_images/cave-flash.bmp)
-![Mask for Flash-Denoising](https://github.com/rnjbdya/Guided-Filter/blob/main/input_images/cavenoflash.bmp)
+Input image for Flash-Denoising           |  Mask for Flash-Denoising
+:-------------------------:|:-------------------------:
+<img src="https://github.com/rnjbdya/Guided-Filter/blob/main/input_images/cave-flash.bmp" alt = "Input image for Flash-Denoising" width="300" height="300">  |  <img src="https://github.com/rnjbdya/Guided-Filter/blob/main/input_images/cavenoflash.bmp" alt = "Mask for Flash-Denoising" width="300" height="300">
+<br />
+
 ###  Output:
-![Flash-Denoising-1](https://github.com/rnjbdya/Guided-Filter/blob/main/output/cave1.png)
-![Flash-Denoising-2](https://github.com/rnjbdya/Guided-Filter/blob/main/output/cave2.png)
-![Flash-Denoising-3](https://github.com/rnjbdya/Guided-Filter/blob/main/output/cave3.png)
-<br />
-![Flash-Denoising-4](https://github.com/rnjbdya/Guided-Filter/blob/main/output/cave4.png)
-![Flash-Denoising-5](https://github.com/rnjbdya/Guided-Filter/blob/main/output/cave5.png)
-![Flash-Denoising-6](https://github.com/rnjbdya/Guided-Filter/blob/main/output/cave6.png)
-<br />
-![Flash-Denoising-7](https://github.com/rnjbdya/Guided-Filter/blob/main/output/cave7.png)
-![Flash-Denoising-8](https://github.com/rnjbdya/Guided-Filter/blob/main/output/cave8.png)
-![Flash-Denoising-9](https://github.com/rnjbdya/Guided-Filter/blob/main/output/cave9.png)
-<br />
+<img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/cave1.png" alt = "Flash Denoising-1" width="250" height="250">    <img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/cave2.png" alt = "Flash Denoising-2" width="250" height="250">   <img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/cave3.png" alt = "Flash Denoising-3" width="250" height="250">  \
+<img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/cave4.png" alt = "Flash Denoising-4" width="250" height="250">  <img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/cave5.png" alt = "Flash Denoising-5" width="250" height="250">  <img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/cave6.png" alt = "Flash Denoising-6" width="250" height="250">  \
+<img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/cave7.png" alt = "Flash Denoising-7" width="250" height="250">  <img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/cave8.png" alt = "Flash Denoising-8" width="250" height="250">  <img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/cave9.png" alt = "Flash Denoising-9" width="250" height="250">
 
 Finally we also performed image enhancement of tulip image. While both the guide image and the input image both were same here, in this case as well we have separately passed the pixel values of the three channels of both the guide image and the input image to the filer function. But we couldn’t get much difference while varying the values of r and  ε.
 
