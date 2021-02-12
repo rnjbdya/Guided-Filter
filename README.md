@@ -88,23 +88,12 @@ Input image for Flash-Denoising           |  Mask for Flash-Denoising
 
 Finally we also performed image enhancement of tulip image. While both the guide image and the input image both were same here, in this case as well we have separately passed the pixel values of the three channels of both the guide image and the input image to the filer function. But we couldn’t get much difference while varying the values of r and  ε.
 
-
-<br />
 ###  Input:
+Input image for Enhancement:
+<img src="https://github.com/rnjbdya/Guided-Filter/blob/main/input_images/tulips.bmp" alt = "Input image for Enhancement" width="300" height="300"> 
 <br />
-![Input image for Enhancement](https://github.com/rnjbdya/Guided-Filter/blob/main/input_images/tulips.bmp)
-<br />
+
 ###  Output:
-<br />
-![Enhancement-1](https://github.com/rnjbdya/Guided-Filter/blob/main/output/tulip1.png)
-![Enhancement-2](https://github.com/rnjbdya/Guided-Filter/blob/main/output/tulip2.png)
-![Enhancement-3](https://github.com/rnjbdya/Guided-Filter/blob/main/output/tulip3.png)
-<br />
-![Enhancement-4](https://github.com/rnjbdya/Guided-Filter/blob/main/output/tulip4.png)
-![Enhancement-5](https://github.com/rnjbdya/Guided-Filter/blob/main/output/tulip5.png)
-![Enhancement-6](https://github.com/rnjbdya/Guided-Filter/blob/main/output/tulip6.png)
-<br />
-![Enhancement-7](https://github.com/rnjbdya/Guided-Filter/blob/main/output/tulip7.png)
-![Enhancement-8](https://github.com/rnjbdya/Guided-Filter/blob/main/output/tulip8.png)
-![Enhancement-9](https://github.com/rnjbdya/Guided-Filter/blob/main/output/tulip9.png)
-<br />
+<img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/tulip1.png" alt = "Enhancement-1" width="250" height="250">    <img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/tulip2.png" alt = "Enhancement-2" width="250" height="250">   <img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/tulip3.png" alt = "Enhancement-3" width="250" height="250">  \
+<img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/tulip4.png" alt = "Enhancement-4" width="250" height="250">  <img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/tulip5.png" alt = "Enhancement-5" width="250" height="250">  <img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/tulip6.png" alt = "Enhancement-6" width="250" height="250">  \
+<img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/tulip7.png" alt = "Enhancement-7" width="250" height="250">  <img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/tulip8.png" alt = "Enhancement-8" width="250" height="250">  <img src="https://github.com/rnjbdya/Guided-Filter/blob/main/output/tulip9.png" alt = "Enhancement-9" width="250" height="250">
